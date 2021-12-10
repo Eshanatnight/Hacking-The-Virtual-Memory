@@ -1,0 +1,7 @@
+# Text Editor and IDE Folders
+/.vs
+/.vscode
+/.idea
+
+#Build
+/build
