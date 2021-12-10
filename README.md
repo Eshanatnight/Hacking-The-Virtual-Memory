@@ -93,4 +93,4 @@ A quick look back to our (still running) loop program we would see there will be
 
 and we get!
 
-<a title="output"><img src="https://github.com/Eshanatnight/Hacking-The-Virtual-Memory-/blob/main/screenshots/Screenshot%202021-12-11%20031708.png" height=30/></a>
+<a title="output"><img src="https://github.com/Eshanatnight/Hacking-The-Virtual-Memory-/blob/main/screenshots/Screenshot%202021-12-11%20031708.png" height=250/></a>
