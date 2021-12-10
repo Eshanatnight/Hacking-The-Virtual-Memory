@@ -73,8 +73,24 @@ Using the maps file, we can find all the information we need to locate our strin
 
 The heap:
 
-- Starts at address 0x010ff000 in the virtual memory of the process
-- Ends at memory address: 0x01120000
+- Starts at address 0x5651ac9a3000 in the virtual memory of the process
+- Ends at memory address: 0x5651ac9c4000
 - Is readable and writable (rw)
 
-A quick look back to our (still running) loop program we would se there will be the address in the heap.
+A quick look back to our (still running) loop program we would see there will be the address in the heap.
+
+```terminal
+    ...
+    [1023] I'm Kells (0x55d181d682a0)
+    ...
+```
+
+## Running the Script
+
+```terminal
+    sudo ./read_write_heap.py 465 "I'm Kells" "Hello World"
+```
+
+and we get!
+
+<a img href ="https://github.com/Eshanatnight/Hacking-The-Virtual-Memory-/blob/main/screenshots/Screenshot%202021-12-11%20031708.png" > </a>
